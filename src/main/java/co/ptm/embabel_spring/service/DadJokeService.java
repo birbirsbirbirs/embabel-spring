@@ -5,8 +5,8 @@ import com.embabel.common.ai.model.LlmOptions;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@Service
 @RequiredArgsConstructor
+@Service
 public class DadJokeService {
     private final Ai ai;
 

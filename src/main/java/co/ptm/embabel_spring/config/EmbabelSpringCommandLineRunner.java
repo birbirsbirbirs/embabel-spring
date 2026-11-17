@@ -7,10 +7,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
 @Slf4j
-@RequiredArgsConstructor
 @Configuration
+@RequiredArgsConstructor
 public class EmbabelSpringCommandLineRunner implements CommandLineRunner {
-    private final DadJokeService dadJokeService;
+    private  final DadJokeService dadJokeService;
+
     @Override
     public void run(String... args) throws Exception {
         String s = dadJokeService.tellOneLinerDadJoke();
